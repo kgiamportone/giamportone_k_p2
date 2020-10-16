@@ -2,7 +2,7 @@
 #define MINHEAP_H
 
 #include <vector>
-#include <string>
+#include <string.h>
 #include <iostream>
 #include <fstream>
 #include <math.h>
