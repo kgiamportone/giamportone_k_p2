@@ -2,8 +2,8 @@ FLAGS = -g -Wall -Werror -std=c++14
 RUNNAME = program2
 .PHONY: program2 clean run
 
-program2: Minheap.o
-	g++ $(FLAGS) Minheap.o -o program2
+submission: Minheap.o
+	g++ $(FLAGS) Minheap.o -o submission
 
 Minheap.o: Minheap.cpp
 	g++ -c $(FLAGS) Minheap.cpp -o Minheap.o
